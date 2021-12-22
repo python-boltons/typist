@@ -1,4 +1,4 @@
-"""Typing urilities we wish were in the standard library."""
+"""Typing utilities we wish were in the standard library."""
 
 import logging as _logging
 

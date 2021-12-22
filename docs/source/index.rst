@@ -3,7 +3,7 @@
 Welcome to typist's documentation!
 ==================================
 
-Typing urilities we wish were in the standard library.
+Typing utilities we wish were in the standard library.
 
 .. toctree::
    :maxdepth: -1

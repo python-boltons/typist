@@ -17,7 +17,7 @@ from setuptools import find_namespace_packages, setup
 ###############################################################################
 # Configuration variables that are likely to need changing at some point.
 ###############################################################################
-DESCRIPTION = "Typing urilities we wish were in the standard library."
+DESCRIPTION = "Typing utilities we wish were in the standard library."
 SUPPORTED_PYTHON_VERSIONS = [
     (3, 8),
     (3, 9),

@@ -12,7 +12,7 @@
       "package_name": "typist",
       "pypi_package_name": "bolton-typist",
       "read_the_docs_domain": "bolton-typist",
-      "package_description": "Typing urilities we wish were in the standard library.",
+      "package_description": "Typing utilities we wish were in the standard library.",
       "package_type": "library",
       "_template": "https://github.com/python-boltons/cc-python",
       "package_path": "typist",

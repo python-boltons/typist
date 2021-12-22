@@ -1,6 +1,6 @@
 # typist
 
-**Typing urilities we wish were in the standard library.**
+**Typing utilities we wish were in the standard library.**
 
 _project status badges:_
 
