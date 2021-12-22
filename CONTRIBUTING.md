@@ -230,5 +230,5 @@ PyPI if all CI checks pass.
 [1]: https://github.com/python-boltons/typist/issues/new/choose
 [2]: https://github.com/c4urself/bump2version
 [3]: https://pypi.org/project/bolton-typist
-[4]: https://github.com/bbugyi200/cc-python
+[4]: https://github.com/python-boltons/cc-python
 [5]: https://github.com/python-boltons/typist/blob/master/CHANGELOG.md

@@ -1,6 +1,6 @@
 {
   "template": "https://github.com/python-boltons/cc-python",
-  "commit": "9b0602fbbef82203bbc2900db461824a34bb6d66",
+  "commit": "52c9aff386aa89a440bf0859696fa4151a35bd52",
   "checkout": null,
   "context": {
     "cookiecutter": {
@@ -14,7 +14,7 @@
       "read_the_docs_domain": "bolton-typist",
       "package_description": "Typing urilities we wish were in the standard library.",
       "package_type": "library",
-      "_template": "https://github.com/bbugyi200/cc-python",
+      "_template": "https://github.com/python-boltons/cc-python",
       "package_path": "typist",
       "package_module": "typist"
     }
