@@ -9,7 +9,16 @@ from __future__ import annotations
 import datetime as dt
 from enum import Enum
 from pathlib import Path
-from typing import Any, Callable, List, NoReturn, TypeVar, Union, get_args
+from typing import (
+    Any,
+    Callable,
+    List,
+    NoReturn,
+    Protocol,
+    TypeVar,
+    Union,
+    get_args,
+)
 
 
 C = TypeVar("C", bound=Callable)
@@ -18,6 +27,13 @@ T = TypeVar("T")
 
 DateLike = Union[str, dt.date, dt.datetime]
 PathLike = Union[str, Path]
+
+
+class ToDictable(Protocol):
+    """Any object with a to_dict() method."""
+
+    def to_dict(self) -> dict[str, Any]:
+        """Converts this object to a dictionary."""
 
 
 def assert_never(value: NoReturn) -> NoReturn:
