@@ -1,0 +1,23 @@
+{
+  "template": "https://github.com/bbugyi200/cc-python",
+  "commit": "4c6bffc12333094d332eaf1a61bda227b65322c4",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "author": "Bryan M Bugyi",
+      "email": "bryanbugyi34@gmail.com",
+      "github_username": "bbugyi200",
+      "git_org_name": "python-boltons",
+      "git_repo_name": "typist",
+      "package_name": "typist",
+      "pypi_package_name": "bolton-typist",
+      "read_the_docs_domain": "bolton-typist",
+      "package_description": "Typing urilities we wish were in the standard library.",
+      "package_type": "library",
+      "_template": "https://github.com/bbugyi200/cc-python",
+      "package_path": "typist",
+      "package_module": "typist"
+    }
+  },
+  "directory": null
+}
