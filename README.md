@@ -13,7 +13,7 @@ _version badges:_
 
 [![Project Version](https://img.shields.io/pypi/v/bolton-typist)](https://pypi.org/project/bolton-typist/)
 [![Python Versions](https://img.shields.io/pypi/pyversions/bolton-typist)](https://pypi.org/project/bolton-typist/)
-[![Cookiecutter: cc-python](https://img.shields.io/static/v1?label=cc-python&message=2021.12.20&color=d4aa00&logo=cookiecutter&logoColor=d4aa00)](https://github.com/python-boltons/cc-python)
+[![Cookiecutter: cc-python](https://img.shields.io/static/v1?label=cc-python&message=2021.12.22&color=d4aa00&logo=cookiecutter&logoColor=d4aa00)](https://github.com/python-boltons/cc-python)
 [![Docker: pythonboltons/main](https://img.shields.io/static/v1?label=pythonboltons%20%2F%20main&message=2021.12.20&color=8ec4ad&logo=docker&logoColor=8ec4ad)](https://github.com/python-boltons/docker-python)
 
 
