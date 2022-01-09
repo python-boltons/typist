@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import datetime as dt
 from enum import Enum
+import json
 from pathlib import Path
 from typing import (
     Any,
@@ -72,3 +73,29 @@ def literal_to_list(
             result.extend(literal_to_list(arg))
 
     return result
+
+
+def is_jsonable(obj: Any) -> bool:
+    """Check if an object can be serialized to JSON.
+
+    Args:
+        obj: The object we want to serialize to JSON.
+
+    Returns:
+        True iff ``obj`` is JSON serializable.
+
+    Examples:
+        >>> is_jsonable("hi")
+        True
+
+        >>> is_jsonable(123)
+        True
+
+        >>> is_jsonable({"sets", "cannot", "be", "serialized", "to", "json"})
+        False
+    """
+    try:
+        json.dumps(obj)
+        return True
+    except (TypeError, OverflowError):
+        return False

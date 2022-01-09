@@ -2,7 +2,16 @@
 
 import logging as _logging
 
-from ._core import C, DateLike, E, PathLike, T, assert_never, literal_to_list
+from ._core import (
+    C,
+    DateLike,
+    E,
+    PathLike,
+    T,
+    assert_never,
+    is_jsonable,
+    literal_to_list,
+)
 
 
 __all__ = [
@@ -12,6 +21,7 @@ __all__ = [
     "DateLike",
     "PathLike",
     "assert_never",
+    "is_jsonable",
     "literal_to_list",
 ]
 
