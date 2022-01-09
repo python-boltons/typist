@@ -28,7 +28,7 @@ No notable changes have been made.
 * Add new `ToDictable` protocol type.
 
 
-## [0.1.0](https://github.com/python-boltons/typist/releases/tag/0.1.0
+## [0.1.0](https://github.com/python-boltons/typist/releases/tag/0.1.0)
 
 ### Miscellaneous
 
