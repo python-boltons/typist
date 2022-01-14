@@ -9,9 +9,24 @@ The format is based on [Keep a Changelog], and this project adheres to
 [Semantic Versioning]: https://semver.org/
 
 
-## [Unreleased](https://github.com/python-boltons/typist/compare/0.1.2...HEAD)
+## [Unreleased](https://github.com/python-boltons/typist/compare/0.2.0...HEAD)
 
 No notable changes have been made.
+
+
+## [0.2.0](https://github.com/python-boltons/typist/compare/0.1.2...0.2.0)
+
+### Added
+
+* New `Comparable` class for sortable types.
+
+### Fixed
+
+* Added `ToDictable` to the API.
+
+### Removed
+
+* *BREAKING CHANGE*: Removed the `C`, `E`, and `T` type variables (i.e. `TypeVar`s).
 
 
 ## [0.1.2](https://github.com/python-boltons/typist/compare/0.1.1...0.1.2)

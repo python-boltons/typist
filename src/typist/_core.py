@@ -10,15 +10,7 @@ import datetime as dt
 from enum import Enum
 import json
 from pathlib import Path
-from typing import (
-    Any,
-    List,
-    NoReturn,
-    Protocol,
-    TypeVar,
-    Union,
-    get_args,
-)
+from typing import Any, List, NoReturn, Protocol, TypeVar, Union, get_args
 
 
 Comp_T = TypeVar("Comp_T", bound="Comparable")
