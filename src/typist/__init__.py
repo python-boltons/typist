@@ -3,11 +3,10 @@
 import logging as _logging
 
 from ._core import (
-    C,
+    Comparable,
     DateLike,
-    E,
     PathLike,
-    T,
+    ToDictable,
     assert_never,
     is_jsonable,
     literal_to_list,
@@ -15,11 +14,10 @@ from ._core import (
 
 
 __all__ = [
-    "C",
-    "E",
-    "T",
+    "Comparable",
     "DateLike",
     "PathLike",
+    "ToDictable",
     "assert_never",
     "is_jsonable",
     "literal_to_list",

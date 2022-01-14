@@ -12,7 +12,6 @@ import json
 from pathlib import Path
 from typing import (
     Any,
-    Callable,
     List,
     NoReturn,
     Protocol,
@@ -22,9 +21,7 @@ from typing import (
 )
 
 
-C = TypeVar("C", bound=Callable)
-E = TypeVar("E", bound=Exception)
-T = TypeVar("T")
+Comp_T = TypeVar("Comp_T", bound="Comparable")
 
 DateLike = Union[str, dt.date, dt.datetime]
 PathLike = Union[str, Path]
@@ -35,6 +32,25 @@ class ToDictable(Protocol):
 
     def to_dict(self) -> dict[str, Any]:
         """Converts this object to a dictionary."""
+
+
+class Comparable(Protocol):
+    """A type that can be compared and sorted."""
+
+    def __eq__(self, other: Any) -> bool:  # noqa: D105
+        pass
+
+    def __lt__(self: Comp_T, other: Comp_T) -> bool:  # noqa: D105
+        pass
+
+    def __gt__(self: Comp_T, other: Comp_T) -> bool:  # noqa: D105
+        pass
+
+    def __le__(self: Comp_T, other: Comp_T) -> bool:  # noqa: D105
+        pass
+
+    def __ge__(self: Comp_T, other: Comp_T) -> bool:  # noqa: D105
+        pass
 
 
 def assert_never(value: NoReturn) -> NoReturn:
